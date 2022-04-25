@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+ 
+body{
+  
+       font-family: 'Montserrat', sans-serif;
+       background-color: #edeaea;
+   }
+
+   *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;  
+}
+
+html{
+    font-size: 62.5%;
+    line-height:1.7;
+    scroll-behavior: smooth;
+}
+
+.text-white{
+    color: lightcyan;
+}
+
+.text-black{
+    color: rgb(76, 67, 67);
+}
+
+.text-red{
+    color:rgb(213, 62, 62);
+}
+
+p, li{
+    font-size: 1.6rem;
+}
+
+h1{
+    font-size: 2.8rem;
+    font-weight: 300;
+}
+.header-contact .navbar .nav-item{
+    display:inline-block;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.navbar .nav-items a{
+    text-decoration: none;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+.navbar .nav-items a:hover{
+    text-decoration: underline;
+}
+
+.header-contact{
+    /* border: 2px solid black; */
+    background-color: rgb(35, 34, 34);
+}
+
+.header-contact .navbar{
+    width:70vw;
+    margin: 0 auto;
+}
+
+.header-contact .nav-item{
+    display: inline-block;
+}
+
+.header-contact .mainlogo{
+    
+    float: left;
+}
+
+.header-contact .nav-items{
+    float: right;
+}
+
+.header-contact::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.header-contact .navbar .mainlogo a{
+    color:lightcyan;
+    text-decoration: none;
+}
+
+.contact_page{
+    width:70vw;
+    margin: 7rem auto;
+    background: white;
+    }
+
+
+
+
+
+.contact_page .details{
+    /* border: 2px solid black; */
+    background-color: white;;
+    padding: 0.5rem 1rem;
+    width: 48%;
+    float:left;
+}
+
+.contact_page .details img{
+    /* width: 3rem; */
+    height: 2.5rem;
+    display:inline-block;
+    margin-top:1rem;
+}
+
+.contact_page .details h1{
+    display:inline-block;
+    font-size: 1.8rem;
+    margin-left:1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+}
+
+.contact_page .details p{
+    margin-bottom: 1rem;
+}
+
+.contact_page .details .contact-image{
+    width: 90%;
+    height:60%;
+}
+
+
+
+.contactform{
+    width: 48%;
+    float:right;
+    background-color: white;
+    padding: 0.5rem;
+
+}
+.contactform h1{
+    font-weight: 700;
+    border-bottom: 0.5rem solid rgb(213, 62, 62);
+}
+
+.contactform .full label{
+    font-size: 1.6rem;
+}
+
+
+.contactform .full input{
+    width:100%;
+}
+
+.contactform .full label::after{
+    content:"*"; 
+    color:rgb(213, 62, 62)
+}
+
+.contactform .full textarea{
+    width:100%;
+}
+
+.contactform .submit{
+    width:100%;
+    display:inline-block;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.contactform .button{
+    padding: 0.5rem 2rem;
+    background-color: rgb(213, 62, 62);
+    font-size: 1.6rem;
+}

@@ -1,0 +1,217 @@
+ /* ***************************ABOUT**************************** */
+
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+ 
+ body{
+   
+        font-family: 'Montserrat', sans-serif;
+        background-color: #edeaea;
+    }
+ 
+
+ *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;  
+}
+
+html{
+    font-size: 62.5%;
+    line-height:1.7;
+    scroll-behavior: smooth;
+}
+
+.text-white{
+    color: lightcyan;
+}
+
+.text-black{
+    color: rgb(76, 67, 67);
+}
+
+.text-red{
+    color:rgb(213, 62, 62);
+}
+
+p, li{
+    font-size: 1.6rem;
+}
+
+h1{
+    font-size: 2.8rem;
+    font-weight: 300;
+}
+
+
+
+
+.header-about .navbar .nav-item{
+    display:inline-block;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.navbar .nav-items a{
+    text-decoration: none;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+.navbar .nav-items a:hover{
+    text-decoration: underline;
+}
+
+.header-about{
+    /* border: 2px solid black; */
+    background-color: rgb(35, 34, 34);
+}
+
+.header-about .navbar{
+    width:70vw;
+    margin: 0 auto;
+}
+
+.header-about .nav-item{
+    display: inline-block;
+}
+
+.header-about .mainlogo{
+    
+    float: left;
+}
+
+.header-about .nav-items{
+    float: right;
+}
+
+.header-about::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+
+.header-about .navbar .mainlogo a{
+    color:lightcyan;
+    text-decoration: none;
+}
+.about{
+width:65vw;
+/* border: 2px solid red; */
+margin: 7rem auto;
+}
+
+.about h1{
+    font-weight: 700;
+    border-bottom: 0.5rem solid rgb(213, 62, 62);
+}
+
+.about .lists{
+    width:50vw;
+    margin: 1rem auto;
+    padding:2rem;
+}
+.about .lists li{
+    list-style-type: none;
+}
+
+.about .lists li::before{
+    content: "✓";
+    color: rgb(213, 62, 62);
+    padding-right: 1rem;
+}
+
+.about .llist{
+    float:left;
+}
+
+.about .rlist{
+    float: right;
+}
+
+.about .lists::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+
+.stats{
+   width:55vw;
+   margin: 5rem auto;
+   /* border: 2px solid blue; */
+}
+
+.stats h1{
+    font-weight: 700;
+}
+
+.stats p{
+    font-size: medium;
+    font-weight: 500;
+}
+
+.stats .travelled{
+    float:left;
+    width: 25%;
+    text-align: center;
+}
+
+.stats .places{
+    float:left;
+    width: 25%;
+    text-align: center;
+}
+.stats .guide{
+    float:left;
+    width: 25%;
+    text-align: center;
+}
+.stats .sports{
+    float:left;
+    width: 25%;
+    text-align: center;
+}
+
+.stats::after{
+    content:"";
+display:block;
+clear:both;
+}
+
+
+.wait{
+    width:65vw;
+    margin:7rem auto;
+    border: 2px solid violet;
+    background-image: linear-gradient(to right, rgb(213 62 62), rgb(255, 95, 15));
+    padding:1rem;
+
+}
+
+.wait .what{
+    float:left;
+    text-align: left;
+    margin: 1rem 0 1rem 0;
+    width:50%
+}
+
+.wait .contact-us{
+    float:right;
+    text-align: center;
+    width:30%;
+    border: 2px solid white;
+   }
+
+.wait::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.wait .contact-us a{
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    text-decoration: none;
+    color: lightcyan;
+}
